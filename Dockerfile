@@ -10,7 +10,6 @@ CMD cd $WORKDIR
 
 RUN git clone --depth=1 https://github.com/midnitesnake/proxmark3.git && \
 	cd proxmark3 && \
-	./configure && \
 	make
 
 CMD /bin/bash
